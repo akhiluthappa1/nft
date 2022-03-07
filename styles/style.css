@@ -1,5 +1,7 @@
+/* @import url(https://fonts.google.com/specimen/Outfit); */
 body{
-    background: hsl(217, 54%, 11%)
+    background: hsl(217, 54%, 11%);
+    font-family: 'outfit', sans-serif;;
 }
 .nft{
     background-color: hsl(216, 50%, 16%);
@@ -16,7 +18,51 @@ body{
     /* background: red; */
     padding-left: 7%;
     text-align: left;
-    font-size: 18px;
-    font-weight: 300;
+    font-size: 22px;
+    font-weight: 600;
     color: white;
+    margin-top: 5%;
+    
 }
+/* .desc{
+    margin-top: 5%; */
+    /* padding-left: 5.75%; */
+    /* font-size: 18px;
+
+} */
+p span {
+    display: block;
+    text-align: left;
+    font-size: 18px;
+    padding-left: 7%;
+    font-weight: 400;
+    opacity: 60%;
+    color:  hsl(215, 51%, 70%);
+  }
+  .amount{
+    display: flex;
+    padding-left: 7%;
+    /* background-color: black; */
+  }
+  .image__3{
+    align-self: center;
+    width: 1.25vw;
+  }
+  .image__4{
+    align-self: center;
+    width: 2vw;
+    margin-right: 3%
+  }
+  .time{
+      display: flex;
+      flex-grow: 1;
+      margin-left: 30%
+  }
+  .amount p{
+      color: hsl(178, 100%, 50%);
+      margin-left: 3%;
+      margin-top: 5%
+  }
+  .time p{
+    margin-top: 10%;
+  }
