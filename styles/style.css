@@ -10,9 +10,10 @@ body{
     border-radius: 15px;
 }
 .image{
-    width: 85%;
+    max-width: 85%;
     margin-top: 5%;
     border-radius: 5px;
+    height: auto;
 }
 .title{
     /* background: red; */
@@ -104,3 +105,16 @@ p span {
     background-color: transparent;
     font-family: 'outfit', sans-serif;
   }
+  @media (max-width: 800px) {
+    .nft{
+    width: 90%;
+    margin: auto;
+    }
+    .image__3{
+      width: 1.2rem;
+    }
+    .image__4{
+      width: 1.5rem;
+    }
+  }
+  
